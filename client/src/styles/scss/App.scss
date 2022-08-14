@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Oswald-Regular';
+    src: url(../../fonts/Oswald/static/Oswald-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Oswald-Bold';
+    src: url(../../fonts/Oswald/static/Oswald-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url(../../fonts/Montserrat/static/Montserrat-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Thin';
+    src: url(../../fonts/Montserrat/static/Montserrat-Thin.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../../fonts/Montserrat/static/Montserrat-Regular.ttf) format('truetype');
+}
+
+$Oswald: 'Oswald-Regular', sans-serif;
+$Oswald-Bold: 'Oswald-Bold', sans-serif;
+$Mont: 'Montserrat-Regular', sans-serif;
+$Mont-Light: 'Montserrat-Light', sans-serif;
+$Mont-Thin: 'Montserrat-Thin', sans-serif;
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.header {
+    font: 100% $Oswald;
+    font-size: 2.5rem;
+}
+
+div p {
+    font: $Mont-Light;
+}
+
+.footer {
+    font: 90% $Mont-Light;
+    font-size: 0.75 rem;
+    text-align: center;
+}
