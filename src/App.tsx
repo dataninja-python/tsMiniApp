@@ -1,5 +1,14 @@
-import React from 'react';
-import './styles/css/App.css';
+// import React components
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+
+// import Pages
+import Landing from './pages/Landing'
+
+// import styling
+import './styles/css/normalize.css'
+import './styles/css/skeleton.css'
+import './styles/css/App.css'
 
 let name: string
 let age: number
@@ -21,11 +30,11 @@ let person: Person = {
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Hi</p>
-      </header>
-    </div>
+    <>
+      <div className="container">
+        <Landing />
+      </div>
+    </>
   );
 }
 

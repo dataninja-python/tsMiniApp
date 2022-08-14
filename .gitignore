@@ -5,6 +5,9 @@
 *.so
 *.dylib
 
+# ignore environment variables
+*.env
+
 # Test binary, built with `go test -c`
 *.test
 
@@ -15,3 +18,4 @@
 # vendor/
 node_modules
 scratch
+archive
